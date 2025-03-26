@@ -6,6 +6,7 @@ on:
       - main
       - module-2-exercise
   pull_request:
+
     types: [opened, synchronize, reopened]
 jobs:
   build:
