@@ -1,7 +1,7 @@
 HELP.md
 .gradle
 build/
-!gradle/wrapper/gradle-wrapper.jar
+
 !**/src/main/**/build/
 !**/src/test/**/build/
 
@@ -41,6 +41,7 @@ target/
 *.log
 *.class
 *.jar
+!gradle/wrapper/gradle-wrapper.jar
 *.war
 *.iml
 .idea/
