@@ -38,6 +38,6 @@ jobs:
       - name: Build and analyze with SonarCloud
         env:
 
-          SONAR_TOKEN: ${{ secrets.2ff38d9fd88976e58c2c638391293e149bf0c4ea}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN}
         run: |
           ./gradlew build sonar --info
